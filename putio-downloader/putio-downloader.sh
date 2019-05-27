@@ -25,7 +25,7 @@
 #   Remember to add the following to entry to crontab, replacing filenames and
 #   paths accordingly
 #
-# */15 * * * * pgrep putio-downloader.sh || /bin/bash /path/to/putio-downloader/putio-downloader.sh [-b blackhole directory] [-o oauth key] [-p put.io directory] >> /path/to/putio-downloader/.log
+# */15 * * * * pgrep putio-downloader.sh || /bin/bash /path/to/putio-downloader/putio-downloader.sh [config_dir] [source_path] [dest_path] >> /path/to/putio-downloader/.log
 
 
 
@@ -153,44 +153,42 @@ function putio_downloader () {
   config_check
 
   # Check that the log file hasn't exceeded 1GB
-  log_check
-
-  
+  log_check  
 
   # Perform diff against source and destination
-  #response=$(rclone check \
-    #${SOURCE_PATH} ${DEST_PATH}
-    #--quiet \
-    #--config=${CONFIG_DIR}/rclone.conf)
+  response=$(rclone check \
+    ${SOURCE_PATH} ${DEST_PATH} \
+    --quiet \
+    --config="${CONFIG_DIR}/rclone.conf")
 
-  #if [[ $response == *"0 differences found"* ]]
-  #then
+  if [[ $response == *"0 differences found"* ]]
+  then
     # No differences found
     # Show active feedback
-    #printf "$(timestamp) ${ORANGE}No new files found...${NC}\n"
-  #else
-    #printf "$(timestamp) ${GREEN}New files found!${NC}\n"
+    printf "$(timestamp) ${ORANGE}No new files found...${NC}\n"
+  else
+    printf "$(timestamp) ${GREEN}New files found!${NC}\n"
 
     # Move new files from source to destination
-    #printf "$(timestamp)   - Downloading new file(s)...                    "
-    #rclone move \
-      #${SOURCE_PATH} ${DEST_PATH}\
-      #--progress \
-      #--config=${CONFIG_DIR}/rclone.conf
-    #printf "${GRAY}[${GREEN}DONE${GRAY}]${NC}\n"
+    printf "$(timestamp)   - Downloading new file(s)...                    "
+    rclone move \
+      ${SOURCE_PATH} ${DEST_PATH} \
+      --progress \
+      --config="${CONFIG_DIR}/rclone.conf"
+    printf "${GRAY}[${GREEN}DONE${GRAY}]${NC}\n"
 
-    #printf "$(timestamp)   - Cleaning up...                                "
-    #rclone rmdirs \
-      #${SOURCE_PATH}/Movies \
-      #--leave-root \
-      #--config=${CONFIG_DIR}/rclone.conf
+    printf "$(timestamp)   - Cleaning up...                                "
+    rclone rmdirs \
+      ${SOURCE_PATH}/Movies \
+      --leave-root \
+      --config="${CONFIG_DIR}/rclone.conf"
 
-    #rclone rmdirs \
-      #${SOURCE_PATH}/Television \
-      #--leave-root
-      #--config=${CONFIG_DIR}/rclone.conf
-    #printf "${GRAY}[${GREEN}DONE${GRAY}]${NC}\n"
-  #fi
+    rclone rmdirs \
+      ${SOURCE_PATH}/Television \
+      --leave-root \
+      --config="${CONFIG_DIR}/rclone.conf"
+    printf "${GRAY}[${GREEN}DONE${GRAY}]${NC}\n"
+  fi
 }
 
 
@@ -269,10 +267,6 @@ while [[ $1 = -?* ]]; do
   esac
   shift
 done
-
-echo "Config Dir: ${CONFIG_DIR}"
-echo "Source Path: ${SOURCE_PATH}"
-echo "Dest PAth: ${DEST_PATH}"
 
 # Store the remaining part as arguments.
 args+=("$@")

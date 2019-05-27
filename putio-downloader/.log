@@ -47821,3 +47821,253 @@ Dest PAth:
 
 [1;30m[[0;37m2019-05-27 13:15:01[1;30m][0m [1;30m[[0;31mERROR[1;30m][0m No 'CONFIG_DIR' received.
 [1;30m[[0;37m2019-05-27 13:15:01[1;30m][0m Exitting...[0m
+[1;30m[[0;37m2019-05-27 13:30:01[1;30m][0m [1m[4mInitiating reclone-move service:[0m
+
+[1;30m[[0;37m2019-05-27 13:36:59[1;30m][0m [0;32mNew files found![0m
+[1;30m[[0;37m2019-05-27 13:36:59[1;30m][0m   - Downloading new file(s)...                    [2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        2.8s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        3.3s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        3.8s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        4.3s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        4.8s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        5.3s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        5.8s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        6.3s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        6.8s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        7.3s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        7.8s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        8.3s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        8.8s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        9.3s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        9.8s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:       10.3s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:       10.8s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:       11.3s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:       11.8s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:       12.3s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:       12.5s
+[1;30m[[0;32mDONE[1;30m][0m
+[1;30m[[0;37m2019-05-27 13:37:11[1;30m][0m   - Cleaning up...                                [1;30m[[0;32mDONE[1;30m][0m
+[1;30m[[0;37m2019-05-27 13:45:03[1;30m][0m [1m[4mInitiating reclone-move service:[0m
+
+[1;30m[[0;37m2019-05-27 13:45:12[1;30m][0m [0;32mNew files found![0m
+[1;30m[[0;37m2019-05-27 13:45:12[1;30m][0m   - Downloading new file(s)...                    [2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        2.2s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        2.7s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        3.2s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        3.7s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        4.2s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        4.7s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        5.2s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        5.7s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        6.1s
+[1;30m[[0;32mDONE[1;30m][0m
+[1;30m[[0;37m2019-05-27 13:45:18[1;30m][0m   - Cleaning up...                                [1;30m[[0;32mDONE[1;30m][0m
+[1;30m[[0;37m2019-05-27 14:00:01[1;30m][0m [1m[4mInitiating reclone-move service:[0m
+
+[1;30m[[0;37m2019-05-27 14:00:16[1;30m][0m [0;32mNew files found![0m
+[1;30m[[0;37m2019-05-27 14:00:16[1;30m][0m   - Downloading new file(s)...                    [2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        1.9s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        2.4s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        2.9s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        3.4s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        3.9s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        4.4s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        4.9s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        5.4s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        5.8s
+[1;30m[[0;32mDONE[1;30m][0m
+[1;30m[[0;37m2019-05-27 14:00:22[1;30m][0m   - Cleaning up...                                [1;30m[[0;32mDONE[1;30m][0m
+[1;30m[[0;37m2019-05-27 14:15:02[1;30m][0m [1m[4mInitiating reclone-move service:[0m
+
+[1;30m[[0;37m2019-05-27 14:15:13[1;30m][0m [0;32mNew files found![0m
+[1;30m[[0;37m2019-05-27 14:15:13[1;30m][0m   - Downloading new file(s)...                    [2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        2.5s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:          3s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        3.5s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:          4s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        4.5s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:          5s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        5.5s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:          6s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        6.3s
+[1;30m[[0;32mDONE[1;30m][0m
+[1;30m[[0;37m2019-05-27 14:15:20[1;30m][0m   - Cleaning up...                                [1;30m[[0;32mDONE[1;30m][0m
+[1;30m[[0;37m2019-05-27 14:30:01[1;30m][0m [1m[4mInitiating reclone-move service:[0m
+
+[1;30m[[0;37m2019-05-27 14:30:09[1;30m][0m [0;32mNew files found![0m
+[1;30m[[0;37m2019-05-27 14:30:09[1;30m][0m   - Downloading new file(s)...                    [2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:          2s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        2.5s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:          3s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        3.5s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:          4s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        4.5s[2K[A[2K[A[2K[A[2K[A[2K[0GTransferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 0, -
+Elapsed time:        4.7s
+[1;30m[[0;32mDONE[1;30m][0m
+[1;30m[[0;37m2019-05-27 14:30:14[1;30m][0m   - Cleaning up...                                [1;30m[[0;32mDONE[1;30m][0m

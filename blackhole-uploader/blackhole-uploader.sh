@@ -27,7 +27,7 @@
 #   Remember to add the following to entry to crontab, replacing filenames and
 #   paths accordingly
 #
-# */15 * * * * pgrep blackhole-uploader.sh || /bin/bash /path/to/blackhole-uploader/blackhole-uploader.sh [-b blackhole directory] [-o oauth key] [-p put.io directory] >> /path/to/blackhole-uploader/.blackhole.log
+# */15 * * * * pgrep blackhole-uploader.sh || /bin/bash /path/to/blackhole-uploader/blackhole-uploader.sh [blackhole_dir] [oauth_key] [putio_dir] >> /path/to/blackhole-uploader/.blackhole.log
 
 
 
