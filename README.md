@@ -8,7 +8,7 @@ A package of script utilities to automate the connection between a users seedbox
 
 <!--td-->
    * [Usage](#usage)
-      * [rclone-mount](#rlcone-mount)
+      * [rclone-mount](#rclone-mount)
          * [Run rclone-mount as user](#run-rclone-mount-as-user)
          * [Install rclone-mount as a service](#install-rclone-mount-as-a-service)
       * [blackhole-uploader](#blackhole-uploader)
@@ -29,7 +29,7 @@ A package of script utilities to automate the connection between a users seedbox
 ./rclone-mount/rclone-mount.sh [--cache_dir] [--config_dir] [--mount_dir] [--remote]
 ```
 
-#### Install as a service                        
+#### Install rclone-mount as a service                        
                                                  
 Edit `./rclone-mount/rclone-mount.service` with the appropriate configuration values.             
                                                  
@@ -43,7 +43,7 @@ systemctl enable rclone-mount.service
                                                  
 ### blackhole-uploader                           
                                                  
-#### Run as user                                 
+#### Run blackhole-uploader as user                                 
                                                  
 Create a symlink for each service you’d like to monitor (radarr, donate, etc):
 
@@ -57,7 +57,7 @@ Then run the following:
 ./radarr-uploader [—blackhole_dir] [—oauth_token] [—putio_dir]
 ```
 
-#### Automate with crontab
+#### Automate blackhole-uploader with crontab
 
 Open crontab:
 ```bash
@@ -69,15 +69,15 @@ Then add the following to the end of the file (be sure to chance the file names 
 */15 * * * * pgrep blackhole-uploader.sh || /bin/bash /path/to/blackhole-uploader/blackhole-uploader.sh [-b blackhole directory] [-o oauth key] [-p put.io directory] >> /path/to/blackhole-uploader/.blackhole.log
 ```
 
-###  putio-Downloader
+###  putio-downloader
 
-#### Run as user
+#### Run putio-downloader as user
 
 ```bash
 ./putio-Downloader/putio-Downloader.sh [—config_dir] [—source_path] [—dest_path]
 ```
 
-#### Automate with crontab
+#### Automate putio-downloader with crontab
 
 Open crontab:
 ```bash
