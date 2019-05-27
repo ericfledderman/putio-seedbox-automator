@@ -1,0 +1,22 @@
+[1;30m[[0;37m2019-05-27 11:16:34[1;30m][0m [1m[4mInitiating rclone-mount:[0m
+
+[1;30m[[0;37m2019-05-27 11:16:34[1;30m][0m Preparing to mount...[1;30m[[0;32mDONE[1;30m][0m
+[1;30m[[0;37m2019-05-27 11:16:34[1;30m][0m Finished. Now exitting...
+[1;30m[[0;37m2019-05-27 11:17:33[1;30m][0m [1m[4mInitiating rclone-mount:[0m
+
+[1;30m[[0;37m2019-05-27 11:17:33[1;30m][0m Preparing to mount...[1;30m[[0;32mDONE[1;30m][0m
+[1;30m[[0;37m2019-05-27 11:17:33[1;30m][0m Finished. Now exitting...
+[1;30m[[0;37m2019-05-27 11:19:02[1;30m][0m [1m[4mInitiating rclone-mount:[0m
+
+[1;30m[[0;37m2019-05-27 11:19:02[1;30m][0m Preparing to mount...[1;30m[[0;32mDONE[1;30m][0m
+[1;30m[[0;37m2019-05-27 11:19:02[1;30m][0m Finished. Now exitting...
+[1;30m[[0;37m2019-05-27 11:22:17[1;30m][0m [1m[4mInitiating rclone-mount:[0m
+
+[1;30m[[0;37m2019-05-27 11:22:17[1;30m][0m Preparing to mount...[1;30m[[0;32mDONE[1;30m][0m
+[1;30m[[0;37m2019-05-27 11:22:17[1;30m][0m Finished. Now exitting...
+[1;30m[[0;37m2019-05-27 11:59:37[1;30m][0m [1m[4mInitiating rclone-mount:[0m
+
+[1;30m[[0;37m2019-05-27 11:59:37[1;30m][0m [1;30m[[0;33mALERT[1;30m][0m Fuse has not been initialized...[1;30m[[0;37m2019-05-27 11:59:37[1;30m][0m   - Initializing                                  [1;30m[[0;32mDONE[1;30m][0m
+
+[1;30m[[0;37m2019-05-27 11:59:37[1;30m][0m Preparing to mount...[1;30m[[0;32mDONE[1;30m][0m
+[1;30m[[0;37m2019-05-27 11:59:44[1;30m][0m Finished. Now exitting...

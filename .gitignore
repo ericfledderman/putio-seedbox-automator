@@ -1,0 +1,6 @@
+# radarr-uploader
+blackhole-uploader/radarr-uploader.sh
+blackhole-uploader/.radarr.log
+# sonarr-uploader
+blackhole-uploader/sonarr-uploader.sh
+blackhole-uploader/.sonarr.log

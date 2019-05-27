@@ -1,0 +1,15 @@
+# Be sure to delete this comment AND rename all filenames and paths accordingly
+
+[Unit]
+Description=Mount and cache gcrypt drive
+After=syslog.target local-fs.target network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/bin/bash /path/to/rclone-mount/rclone-mount.sh
+ExecStop=/bin/fusermount -u -z /path/to/mount_dir
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
