@@ -4,11 +4,26 @@ Version: 0.1.0
 
 A package of script utilities to automate the connection between a users seedbox and Put.io account.
 
+## Table of Contents
+
+<!--td-->
+   * [Usage](#usage)
+      * [rclone-mount](#rlcone-mount)
+         * [Run rclone-mount as user](#run-rclone-mount-as-user)
+         * [Install rclone-mount as a service](#install-rclone-mount-as-a-service)
+      * [blackhole-uploader](#blackhole-uploader)
+         * [Run blackhole-uploader as user](#run-blackhole-uploader-as-user)
+         * [Automate blackhole-uploader with crontab](#automate-blackhole-uploader-with-crontab)
+      * [putio-downloader](#putio-downloader)
+         * [Run putio-downloader as user](#run-putio-downloader-as-user)
+         * [Automate putio-downloader with crontab](#automate-putio-downloader-with-crontab)
+<!--te-->
+
 ## Usage
 
 ### rclone-mount
 
-#### Run as user
+#### Run rclone-mount as user
 
 ```bash
 ./rclone-mount/rclone-mount.sh [--cache_dir] [--config_dir] [--mount_dir] [--remote]
